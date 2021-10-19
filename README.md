@@ -37,6 +37,17 @@ In ``void Update`` we will need to add an ``if`` statement that will say that if
 
 ![image](https://user-images.githubusercontent.com/91539042/137915735-6f2eb352-4eb5-42db-83b7-4319c79e07c8.png)
 
+Create a ``void Shoot()``. Inside, write a ``RaycastHit hit`` which means we will use raycasts to shoot. We will need an ``if`` statement saying if we shoot in the camera position, the raycast will appear in the forward direction when it hits something within its shooting range.
+We will need to state ``if`` we hit an item with the tag ``Enemy``, the enemy will receive damage. We also need to mention the ``Target`` to state it will lose health.
+
+![image](https://user-images.githubusercontent.com/91539042/137920343-320fc428-1d71-47b7-83ec-99afa6ae737d.png)
 
 
+In another ``if`` statement, state if the target is ``null``, nothing happens. The last function we need will be a ``target.TakeDamage(damage)`` stating that in the ``Target`` script, we have a ``TakeDamage`` function, so this function will be activated.
+
+It should look something ike this:
+
+![image](https://user-images.githubusercontent.com/91539042/137920150-dd88a90d-d9a5-4956-aaca-21dc129127e9.png)
+
+You should be a able to make the Enemy dissapear now after hitting it 5 times or depending on the numbers you gave the variables.
 
