@@ -4,7 +4,7 @@ In this tutorial we will be able to shoot enemies and make them dissapear. We wi
 
 ## 1. Creating a project
 
-Create a new Unity project, call it EnemyDeath or whatever suits you. Add a plane 3D object, a 3D cube called Enemy, an empty game object (called Player) with a cylinder child object attached to it, call this cylinder Gun. Also, attach the MainCamera to the Player.
+Create a new Unity project, call it EnemyDeath or anything that suits you. Add a plane 3D object, a 3D cube called Enemy, an empty game object (called Player) with a cylinder child object attached to it, call this cylinder Gun. Also, attach the MainCamera to the Player.
 
 ![image](https://user-images.githubusercontent.com/91539042/137912812-640445fd-037e-415e-84ac-304705658f26.png)
 
