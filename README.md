@@ -16,7 +16,7 @@ Firstly we will create a new script called ``Target``. We will delete ``void Sta
 
 We will need to create a ``public void Take Damage(float amount)``, this amount will represent the one stated in the inspector. We will need to add an ``if`` statement that will state if health is smaller or equal to zero, the game object with this script will be destroyed.
 
-![image](https://user-images.githubusercontent.com/91539042/137911384-56d56cd1-8069-4442-a0c5-3d66c7a8d512.png)
+![137911384-56d56cd1-8069-4442-a0c5-3d66c7a8d512](https://user-images.githubusercontent.com/91539042/145175417-7db8e205-45c8-44b3-93a1-4ae8f9f322a4.png)
 
 
 We will add a ``public void Damage`` with another ``if`` statement saying when the object takes damage, if health is bigger or equal to 1, it will decrease, if not (if health is smaller than 1) the game object will be destroyed.
